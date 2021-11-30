@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN pip3 install \
     requests \
-    beautifulsoup4
+    beautifulsoup4 \
+    scrapy
 
 ENTRYPOINT ["/bin/bash"]
